@@ -20,7 +20,7 @@ function areSimilar(a, b) {
                 tempB = b[i];
             } else {
                 swap++;
-                if (tempA === a[i] && tempB === b[i]) {
+                if (tempA === b[i] && tempB === a[i]) {
                     continue;
                 } else {
                     return false;
