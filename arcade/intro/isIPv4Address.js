@@ -14,5 +14,3 @@ function isIPv4Address(inputString) {
     
     return true;
 }
-
-console.log(isIPv4Address(".254.255.0"));
