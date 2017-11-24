@@ -20,5 +20,3 @@ function palindromeRearranging(inputString) {
     console.log(charObj);
 
 }
-    
-console.log(palindromeRearranging('aabb'));
