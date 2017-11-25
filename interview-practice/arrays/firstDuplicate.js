@@ -19,7 +19,3 @@ function firstDuplicate(a) {
     return -1;
     //output is a single number which is the duplicate with smallest index
 }
-
-var a = [2, 3, 5, 1, 5, 2];
-console.log(firstDuplicate(a));
-    
