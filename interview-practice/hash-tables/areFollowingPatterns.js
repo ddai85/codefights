@@ -24,7 +24,5 @@ function areFollowingPatterns(strings, patterns) {
     return false;
   }
 }
-let strings = ["cat", "dog", "dog"];
-let patterns = ["a", "b", "b"];
-console.log(areFollowingPatterns(strings, patterns));
+
   
