@@ -1,9 +1,9 @@
 function getCellColor(cell) {
   let arr = cell.split('');
-  if (arr[0].match(/^(a|c|e|g)/) && parseInt(arr[1]) % 2 === 1) {
+  if (arr[0].match(/^(A|C|E|G)/) && parseInt(arr[1]) % 2 === 1) {
     return 1;
   }
-  if (arr[0].match(/^(b|d|f|h)/) && parseInt(arr[1]) % 2 === 0) {
+  if (arr[0].match(/^(B|D|F|H)/) && parseInt(arr[1]) % 2 === 0) {
     return 1;
   }
   return 0;
